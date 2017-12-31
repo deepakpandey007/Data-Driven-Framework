@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sprint1_Data Driven Testing]">
+  <test name="Login with valid Inputs(failed)">
+    <classes>
+      <class name="SPRINT1_Login.DataDrivenTest">
+        <methods>
+          <include name="login_Valid_Test" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- SPRINT1_Login.DataDrivenTest -->
+    </classes>
+  </test> <!-- Login with valid Inputs(failed) -->
+</suite> <!-- Failed suite [Sprint1_Data Driven Testing] -->
