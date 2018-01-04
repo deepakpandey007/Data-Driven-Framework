@@ -44,8 +44,8 @@ public class Login extends Resources {
 				System.out.println("Remember_me Checkek_box is Checked="+ status);
 				if(status.equals(false))
 				{
+					logger.info("Check Box Checked");
 					check_box.click();
-
 					driver.findElement(By.xpath(prop.getProperty("login"))).click();
 
 					Thread.sleep(2000);

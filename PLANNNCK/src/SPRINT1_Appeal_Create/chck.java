@@ -19,10 +19,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.annotations.Test;
 
+import Lib.LogConfigBase;
 
 
 
-public class chck {
+
+public class chck extends LogConfigBase{
 	
 	WebDriver driver;
 	Properties prop;
@@ -41,7 +43,7 @@ public class chck {
 		/*Screen screen=new Screen();
 		org.sikuli.script.Pattern img=new org.sikuli.script.Pattern("C:\\Users\\Microsoft\\Desktop\\appeal2.png");*/
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Microsoft\\eclipse-workspace\\PLANNNCK\\Driver\\chromedriver.exe" );
+		System.setProperty("webdriver.chrome.driver","D:\\git\\Plannnck\\SeleniumTest\\PLANNNCK\\Driver\\chromedriver.exe" );
 
 		driver=new ChromeDriver();
 		JavascriptExecutor js=(JavascriptExecutor)driver;	
@@ -96,7 +98,11 @@ public class chck {
 	   driver.switchTo().window(src);
 	   
 		driver.findElement(By.xpath(prop.getProperty("propose_tag"))).click();
-		Thread.sleep(1000);				
+		Thread.sleep(1000);			
+		
+		System.out.println(driver.findElement(By.xpath(prop.getProperty("activity_check"))).getAttribute("src"));
+		driver.findElement(By.xpath(".//*[@id='country-list-styled']")).click();
+	System.out.println(driver.findElement(By.xpath(".//*[@id='country-list-styled']")).getAttribute("value"));
 		driver.findElement(By.xpath("//*[@class='apl-btn']")).click();
 		Thread.sleep(2000);
 		ArrayList<String> list_click=new ArrayList<String>();	
