@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Registration Test"
+           tests="57"
+           failures="3"
+           errors="0"
+           skipped="0"
+           time="683.681">
+  <properties />
+            <testcase name="Registrartion_FontCheck" time="8.906" classname="SPRINT1_Registration.Registration_DataDrivenTest">
+                <failure type="java.lang.AssertionError"
+                  message="Font-Family Mismatch expected [Na] but found [Rubik, sans-serif]"
+              >
+<![CDATA[java.lang.AssertionError: Font-Family Mismatch expected [Na] but found [Rubik, sans-serif]
+  org.testng.Assert.fail(Assert.java:93)
+  org.testng.Assert.failNotEquals(Assert.java:512)
+  org.testng.Assert.assertEqualsImpl(Assert.java:134)
+  org.testng.Assert.assertEquals(Assert.java:115)
+  org.testng.Assert.assertEquals(Assert.java:189)
+  SPRINT1_Registration.Registration.registration_fontcheck(Registration.java:2570)
+  SPRINT1_Registration.Registration_DataDrivenTest.Registrartion_FontCheck(Registration_DataDrivenTest.java:214)
+  sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:776)
+  org.testng.TestRunner.run(TestRunner.java:634)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+  org.testng.SuiteRunner.run(SuiteRunner.java:334)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+  org.testng.TestNG.runSuites(TestNG.java:1161)
+  org.testng.TestNG.run(TestNG.java:1129)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Registrartion_FontCheck" time="11.538" classname="SPRINT1_Registration.Registration_DataDrivenTest">
+                <failure type="java.lang.AssertionError"
+                  message="Font-Position Mismatch expected [Na] but found [static]"
+              >
+<![CDATA[java.lang.AssertionError: Font-Position Mismatch expected [Na] but found [static]
+  org.testng.Assert.fail(Assert.java:93)
+  org.testng.Assert.failNotEquals(Assert.java:512)
+  org.testng.Assert.assertEqualsImpl(Assert.java:134)
+  org.testng.Assert.assertEquals(Assert.java:115)
+  org.testng.Assert.assertEquals(Assert.java:189)
+  SPRINT1_Registration.Registration.registration_fontcheck(Registration.java:2589)
+  SPRINT1_Registration.Registration_DataDrivenTest.Registrartion_FontCheck(Registration_DataDrivenTest.java:214)
+  sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:776)
+  org.testng.TestRunner.run(TestRunner.java:634)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+  org.testng.SuiteRunner.run(SuiteRunner.java:334)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+  org.testng.TestNG.runSuites(TestNG.java:1161)
+  org.testng.TestNG.run(TestNG.java:1129)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Registrartion_FontCheck" time="8.743" classname="SPRINT1_Registration.Registration_DataDrivenTest">
+                <failure type="java.lang.AssertionError"
+                  message="Font-Weight Mismatch expected [400.0] but found [600.0]"
+              >
+<![CDATA[java.lang.AssertionError: Font-Weight Mismatch expected [400.0] but found [600.0]
+  org.testng.Assert.fail(Assert.java:93)
+  org.testng.Assert.failNotEquals(Assert.java:512)
+  org.testng.Assert.assertEqualsImpl(Assert.java:134)
+  org.testng.Assert.assertEquals(Assert.java:115)
+  org.testng.Assert.assertEquals(Assert.java:189)
+  SPRINT1_Registration.Registration.registration_fontcheck(Registration.java:2410)
+  SPRINT1_Registration.Registration_DataDrivenTest.Registrartion_FontCheck(Registration_DataDrivenTest.java:214)
+  sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:776)
+  org.testng.TestRunner.run(TestRunner.java:634)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+  org.testng.SuiteRunner.run(SuiteRunner.java:334)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+  org.testng.TestNG.runSuites(TestNG.java:1161)
+  org.testng.TestNG.run(TestNG.java:1129)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="Registrartion_FontCheck" time="8.612" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="10.395" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.813" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.242" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.459" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.525" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.470" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.763" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.006" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="10.565" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.889" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.361" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.903" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.427" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="10.212" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.073" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.991" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.665" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.251" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="10.003" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="49.123" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="10.653" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="13.663" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.996" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.200" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.223" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.297" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.090" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.685" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.406" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.714" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.256" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.443" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.559" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.050" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="12.972" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.682" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.334" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.632" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.830" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="78.284" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="14.817" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.793" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.487" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.437" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="13.295" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="8.194" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.923" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.103" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="10.991" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.014" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="9.422" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.015" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+                <testcase name="Registrartion_FontCheck" time="11.286" classname="SPRINT1_Registration.Registration_DataDrivenTest" />
+      
+</testsuite>
